@@ -11,5 +11,5 @@ lightweight Python tool to extract, analyze, and purge tracking metadata (EXIF &
 ##  Installation
 Make sure you have Python installed, then install the Pillow and  Tkinter libraries
 
-## 💻 Usage
+##  Usage
 Simply run the script and select your image using the file browser popup.
