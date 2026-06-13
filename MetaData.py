@@ -23,7 +23,7 @@ def run_privacy_shield():
         print(" Operation cancelled. No file was selected.")
         return
 
-    print(f"📁 Target File Locked: {selected_file}")
+    print(f" Target File Locked: {selected_file}")
 
     try:
         with Image.open(selected_file) as img:
@@ -116,7 +116,7 @@ def run_privacy_shield():
                 clean_img.save(clean_file_path)
                 
                 print(f"\n Privacy Shield Successful! All hidden tracking signatures purged.")
-                print(f"🔒 Sterile file exported to: {name}_ANONYMOUS{ext}")
+                print(f" Sterile file exported to: {name}_ANONYMOUS{ext}")
             else:
                 print("\n Execution terminated. Target file header left unmodified.")
                             
